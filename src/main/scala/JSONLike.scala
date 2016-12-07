@@ -23,6 +23,14 @@ object JSONLike {
 
     println("List Akhir")
     lstAkhir.map(println)
+
+
+    println("--------------")
+    println("Convert List to Map Example")
+    val lst = List("a", "b", "c")
+    val m = lst.map(l => s"$l-key" -> l).toMap
+
+    println(m)
   }
 
 
