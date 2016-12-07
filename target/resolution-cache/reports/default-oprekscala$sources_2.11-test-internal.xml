@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="oprekscala$sources_2.11"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161207071651"/>
+	<dependencies>
+		<module organisation="com.opencsv" name="opencsv">
+			<revision name="3.7" status="release" pubdate="20160129110357" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3855" time="0" location="/home/hendisantika/.ivy2/cache/com.opencsv/opencsv/ivy-3.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/opencsv/opencsv/3.7/opencsv-3.7.pom"/>
+				<caller organisation="default" name="oprekscala$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.7" rev-constraint-default="3.7" rev-constraint-dynamic="3.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41186" time="0" location="/home/hendisantika/.ivy2/cache/com.opencsv/opencsv/srcs/opencsv-3.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/opencsv/opencsv/3.7/opencsv-3.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.tototoshi" name="scala-csv_2.11">
+			<revision name="1.3.4" status="release" pubdate="20161109215719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/tototoshi/scala-csv" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3057" time="0" location="/home/hendisantika/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.11/1.3.4/scala-csv_2.11-1.3.4.pom"/>
+				<caller organisation="default" name="oprekscala$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-csv_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10337" time="0" location="/home/hendisantika/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/srcs/scala-csv_2.11-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.11/1.3.4/scala-csv_2.11-1.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160309111604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/hendisantika/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="oprekscala$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/home/hendisantika/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.3.2" status="release" pubdate="20140406192129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<metadata-artifact status="no" details="" size="10428" time="0" location="/home/hendisantika/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom"/>
+				<caller organisation="default" name="oprekscala$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="470961" time="0" location="/home/hendisantika/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
