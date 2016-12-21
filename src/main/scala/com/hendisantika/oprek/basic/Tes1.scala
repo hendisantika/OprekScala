@@ -1,6 +1,8 @@
 import java.text.SimpleDateFormat
 import java.util.{Calendar, Date}
 
+import scala.io.Source
+
 /**
   * Created by hendisantika on 05/12/16.
   */
@@ -56,6 +58,8 @@ object Tes1 {
       "pelacur", "lucah", "blue film", "bluefilm", "divid", "dividi", "bagi yang mendaftar")
 
 //    words.foreach { println }
+//    for(line <- Source.fromFile("/home/hendisantika/Documents/mainspring/data_kerja/comments-service/SpamWords.csv").getLines())
+//      print(s""""${line}"""" + ", ")
 
     val now = Calendar.getInstance().getTime
 //    val currentMinute = now.get(Calendar.MINUTE)
@@ -69,18 +73,20 @@ object Tes1 {
 //    println("Now : " + now)
 //    println("currentMinute : " + java.time.LocalDate.now)
 //    println("System.currentTimeMillis() : " + System.currentTimeMillis())
-
+//    print("SADD x-spams ")
     for (i <- 0 until words.length) {
+      println(s"${i+1};${words(i)}")
 //      println(s"$i --> ${words(i)} ${waktu}")
 //      println(s"${i + 1 }, ${words(i)}, ${tgl2}")
 //      println(s""""${words(i)}"""")
-      print(s""""${words(i)}"""" + " ")
+//      print(s""""SADD x-spam "$words"""")
+//      print(s""""${words(i)}"""" + " ") // Udah OK yg ini nich
+//      print(s"SADD x-spams " + s""""${words(i)}"""" + " ") // But SADD ke Redis
+
     }
-    println("Jumlah Spam Words : " + words.length)
+//    println("Jumlah Spam Words : " + words.length)
+
 
   }
 
-  def split: Unit ={
-
-  }
 }

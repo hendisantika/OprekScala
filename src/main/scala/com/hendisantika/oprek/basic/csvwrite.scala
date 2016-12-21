@@ -1,11 +1,13 @@
 import java.io.{BufferedWriter, FileWriter}
 
+import com.github.tototoshi.csv.CSVWriter
+
 /**
   * Created by hendisantika on 05/12/16.
   */
 object csvwrite extends App {
-  val out = new BufferedWriter(new FileWriter("/home/piyush/Desktop/employee.csv"));
-//  val writer = new CSVWriter(out);
+  val out = new BufferedWriter(new FileWriter("/home/hendisantika/Documents/testing/employee.csv"));
+  val writer = new CSVWriter(out);
   val employeeSchema = Array("name", "age", "dept")
 
   val employee1 = Array("piyush", "23", "computerscience")
