@@ -1,7 +1,7 @@
+package com.hendisantika.oprek.basic
+
 import java.text.SimpleDateFormat
 import java.util.{Calendar, Date}
-
-import scala.io.Source
 
 /**
   * Created by hendisantika on 05/12/16.

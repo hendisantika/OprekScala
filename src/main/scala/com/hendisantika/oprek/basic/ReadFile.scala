@@ -1,4 +1,6 @@
-import java.io.{File, PrintWriter}
+package com.hendisantika.oprek.basic
+
+import java.io.File
 
 import scala.io.Source
 

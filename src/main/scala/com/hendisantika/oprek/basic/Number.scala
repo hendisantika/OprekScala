@@ -1,3 +1,5 @@
+package com.hendisantika.oprek.basic
+
 import java.text.DecimalFormat
 
 /**
