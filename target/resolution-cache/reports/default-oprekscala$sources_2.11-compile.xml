@@ -7,16 +7,28 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161207182403"/>
+		date="20161221073748"/>
 	<dependencies>
 		<module organisation="com.opencsv" name="opencsv">
-			<revision name="3.7" status="release" pubdate="20160129110357" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+			<revision name="3.7" status="release" pubdate="20160129110357" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3855" time="0" location="/home/hendisantika/.ivy2/cache/com.opencsv/opencsv/ivy-3.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/opencsv/opencsv/3.7/opencsv-3.7.pom"/>
 				<caller organisation="default" name="oprekscala$sources_2.11" conf="compile" rev="3.7" rev-constraint-default="3.7" rev-constraint-dynamic="3.7" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41186" time="0" location="/home/hendisantika/.ivy2/cache/com.opencsv/opencsv/srcs/opencsv-3.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/opencsv/opencsv/3.7/opencsv-3.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.40" status="release" pubdate="20160925013503" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2538" time="0" location="/home/hendisantika/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.40.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40.pom"/>
+				<caller organisation="default" name="oprekscala$sources_2.11" conf="compile" rev="5.1.40" rev-constraint-default="5.1.40" rev-constraint-dynamic="5.1.40" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="900048" time="4669" location="/home/hendisantika/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.40-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
