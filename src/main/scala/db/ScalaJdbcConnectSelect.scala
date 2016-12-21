@@ -1,4 +1,4 @@
-package com.hendisantika.oprek.basic.db
+package db
 
 import java.sql.{Connection, DriverManager}
 

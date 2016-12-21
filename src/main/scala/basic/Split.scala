@@ -1,4 +1,4 @@
-package com.hendisantika.oprek.basic
+package basic
 
 /**
   * Created by hendisantika on 06/12/16.

@@ -1,4 +1,4 @@
-package com.hendisantika.oprek.basic
+package basic
 
 import scala.util.Random
 
