@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161221073748"/>
+		date="20161221080755"/>
 	<dependencies>
 		<module organisation="com.opencsv" name="opencsv">
 			<revision name="3.7" status="release" pubdate="20160129110357" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="2538" time="0" location="/home/hendisantika/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.40.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40.pom"/>
 				<caller organisation="default" name="oprekscala$sources_2.11" conf="test, compile, runtime" rev="5.1.40" rev-constraint-default="5.1.40" rev-constraint-dynamic="5.1.40" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="900048" time="4669" location="/home/hendisantika/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.40-sources.jar">
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="900048" time="0" location="/home/hendisantika/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.40-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40-sources.jar"/>
 					</artifact>
 				</artifacts>
