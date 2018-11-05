@@ -2,3 +2,5 @@ target/
 .idea/
 project/
 test/
+src/main/java/
+src/main/scala-2.11/
